@@ -1,0 +1,25 @@
+body {
+  margin: 0; }
+
+.header {
+  font-family: "Varela Round";
+  color: white;
+  font-weight: bold; }
+  .header > * {
+    background-color: transparent;
+    color: white; }
+  .header a {
+    color: white; }
+  .header a:hover {
+    color: white;
+    text-decoration: overline; }
+  .header a:visited {
+    color: white; }
+
+.menu {
+  justify-content: flex-end; }
+
+.size-img-slider {
+  max-width: 100%; }
+
+/*# sourceMappingURL=home.css.map */

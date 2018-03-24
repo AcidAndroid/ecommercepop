@@ -1,0 +1,35 @@
+$zero: 0;
+$letra:'Varela Round';
+$menu-font-color: white;
+body {
+    margin: $zero;
+}
+
+.header {
+    font-family: $letra;
+    color: $menu-font-color;
+    font-weight: bold;
+    >* {
+        background-color: transparent;
+        color: $menu-font-color;
+    }
+    a {
+        color: $menu-font-color;
+    }
+    a:hover {
+        color: $menu-font-color;
+        text-decoration: overline;
+    }
+    a:visited {
+        color: $menu-font-color;
+    }
+}
+
+.menu {
+    justify-content: flex-end;
+}
+
+.size-img-slider {
+    max-width: 100%;
+    // max-height: 530px;
+}
