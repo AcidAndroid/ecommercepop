@@ -19,7 +19,18 @@ body {
 .menu {
   justify-content: flex-end; }
 
-.size-img-slider {
-  max-width: 100%; }
+.custom-slider-indicador {
+  background-color: gray;
+  min-height: 5% !important;
+  max-height: 5% !important;
+  min-width: 5% !important;
+  max-width: 5% !important;
+  top: 80%; }
+
+.indicador-derecho {
+  right: 75% !important; }
+
+.indicador-izquierdo {
+  left: 10% !important; }
 
 /*# sourceMappingURL=home.css.map */
