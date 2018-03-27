@@ -1,6 +1,10 @@
 body {
   margin: 0; }
 
+.history-text {
+  font-family: "Oswald";
+  margin: 5% 5% 5% 2%; }
+
 .header {
   font-family: "Varela Round";
   color: white;
@@ -20,17 +24,56 @@ body {
   justify-content: flex-end; }
 
 .custom-slider-indicador {
-  background-color: gray;
+  background-color: #c5d5cb;
   min-height: 5% !important;
   max-height: 5% !important;
   min-width: 5% !important;
   max-width: 5% !important;
   top: 80%; }
 
+.indicador-derecho,
+.indicador-izquierdo {
+  background: center;
+  background-image: url("../media/right.svg") !important;
+  background-repeat: no-repeat;
+  background-color: #c5d5cb; }
+
 .indicador-derecho {
-  right: 75% !important; }
+  right: 75% !important;
+  background-image: url("../media/right.svg") !important; }
 
 .indicador-izquierdo {
-  left: 10% !important; }
+  left: 10% !important;
+  background-image: url("../media/left.svg") !important; }
+
+#cars-gallery-derecho,
+#cars-gallery-izquierdo {
+  background-image: none !important; }
+
+#Versiones h4,
+#Historia h4 {
+  font-family: "Varela Round"; }
+#Versiones .card,
+#Historia .card {
+  box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.2); }
+
+#Versiones > .row {
+  margin-top: 2rem; }
+#Versiones .btn-store {
+  background-color: #a8b6bf;
+  color: white; }
+#Versiones .btn-store:hover {
+  background-color: white;
+  color: black;
+  border-color: #9ad3de; }
+
+.precios {
+  text-align: right;
+  color: #b3c2bf; }
+
+.precios2 {
+  text-align: left;
+  font-weight: bolder;
+  font-size: xx-large; }
 
 /*# sourceMappingURL=home.css.map */
