@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  position: relative; }
+
+.main {
+  margin-top: 10%; }
+  @media screen and (min-width: 992px) {
+    .main {
+      margin-top: 10%; } }
+  @media screen and (max-width: 783px) {
+    .main {
+      margin-top: 20%; } }
+  @media screen and (max-width: 539px) {
+    .main {
+      margin-top: 25%; } }
+  @media screen and (max-width: 507px) {
+    .main {
+      margin-top: 40%; } }
+  @media screen and (max-width: 393px) {
+    .main {
+      margin-top: 60%; } }
+
+/*# sourceMappingURL=all.css.map */

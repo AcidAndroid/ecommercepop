@@ -1,0 +1,25 @@
+$zero: 0;
+$magin-between-head-content:10%;
+body {
+    margin: $zero;
+    position: relative;
+}
+
+.main {
+    margin-top: $magin-between-head-content;
+    @media screen and (min-width: 992px) {
+        margin-top: $magin-between-head-content;
+    }
+    @media screen and (max-width: 783px) {
+        margin-top: 20%;
+    }
+    @media screen and (max-width: 539px) {
+        margin-top: 25%;
+    }
+    @media screen and (max-width: 507px) {
+        margin-top: 40%;
+    }
+    @media screen and (max-width: 393px) {
+        margin-top: 60%;
+    }
+}
