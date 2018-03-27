@@ -1,5 +1,6 @@
 body {
-  margin: 0; }
+  margin: 0;
+  position: relative; }
 
 .history-text {
   font-family: "Oswald";
@@ -11,6 +12,7 @@ body {
   font-weight: bold; }
   .header > * {
     background-color: transparent;
+    transition: background-color 1000ms linear;
     color: white; }
   .header a {
     color: white; }
@@ -19,6 +21,10 @@ body {
     text-decoration: overline; }
   .header a:visited {
     color: white; }
+
+.header-bg-color {
+  background-color: #c5d5cb;
+  transition: background-color 1000ms linear; }
 
 .menu {
   justify-content: flex-end; }
@@ -75,5 +81,21 @@ body {
   text-align: left;
   font-weight: bolder;
   font-size: xx-large; }
+  @media screen and (max-width: 1000px) {
+    .precios2 {
+      font-size: x-large;
+      text-align: center; } }
+  @media screen and (max-width: 830px) {
+    .precios2 {
+      font-size: large;
+      text-align: center; } }
+  @media screen and (max-width: 733px) {
+    .precios2 {
+      font-size: small;
+      text-align: left; } }
+  @media screen and (max-width: 573px) {
+    .precios2 {
+      font-size: large;
+      text-align: left; } }
 
 /*# sourceMappingURL=home.css.map */

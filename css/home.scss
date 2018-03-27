@@ -6,8 +6,10 @@ $menu-font-color2: black;
 $img-minima-altura: 90%;
 $overlap-color:#c5d5cb;
 $boton-color:#a8b6bf;
+$time-transition:1000ms;
 body {
     margin: $zero;
+    position: relative;
 }
 
 .history-text {
@@ -21,6 +23,7 @@ body {
     font-weight: bold;
     >* {
         background-color: transparent;
+        transition: background-color $time-transition linear;
         color: $menu-font-color;
     }
     a {
@@ -33,6 +36,11 @@ body {
     a:visited {
         color: $menu-font-color;
     }
+}
+
+.header-bg-color {
+    background-color: $overlap-color;
+    transition: background-color $time-transition linear
 }
 
 .menu {
@@ -110,5 +118,25 @@ body {
 .precios2 {
     text-align: left;
     font-weight: bolder;
-    font-size: xx-large
+    font-size: xx-large;
+    @media screen and (max-width: 1000px) {
+        font-size: x-large;
+        // color: green;
+        text-align: center;
+    }
+    @media screen and (max-width: 830px) {
+        font-size: large;
+        // color: blue;
+        text-align: center;
+    }
+    @media screen and (max-width: 733px) {
+        font-size: small;
+        // color: red;
+        text-align: left;
+    }
+    @media screen and (max-width: 573px) {
+        font-size: large;
+        // color: gold;
+        text-align: left;
+    }
 }

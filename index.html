@@ -21,10 +21,10 @@
 
 
     <header class="header">
-        <div class="container fixed-top">
+        <div id="header" class="container fixed-top">
             <div class="row ">
                 <div class="col-xs-2 col-sm-2 col-md-2">
-                    <nav class="navbar navbar-light ">
+                    <nav id="nav-delorean" class="navbar navbar-light ">
                         <a class="navbar-brand letras-menu" href="index.html">
                             <img src="media/logo.png" width="30" height="30" alt="DeLorean"> DeLorean
                         </a>
@@ -34,7 +34,7 @@
                     <nav class="navbar navbar-light  menu letras-menu">
                         <a class="btn " href="">Tienda</a>
                         <a class="btn " href="">Modelos</a>
-                        <a class="btn " href="">Contacto</a>
+                        <a class="btn " href="contacto.html">Contacto</a>
 
                     </nav>
                 </div>
@@ -91,11 +91,11 @@
                             <p class="card-text">Para los mas nostalgicos y de con buen estilo.</p>
                             <div class="container">
                                 <div class="row ">
-                                    <div class="col-2 precios">
+                                    <div class="col-5 col-sm-6 col-md-4 precios">
                                         <p>Precio inicial</p>
                                     </div>
-                                    <div class="col-10 precios2">
-                                        <p>$200,000.00</p>
+                                    <div class="col-5 col-sm-6 col-md-8 precios2">
+                                        <p>$200,000</p>
                                     </div>
                                 </div>
                             </div>
@@ -111,11 +111,11 @@
                             <p class="card-text">Deslumbrante y poderoso. Mucho mejor que un 'Pura sangre' </p>
                             <div class="container">
                                 <div class="row ">
-                                    <div class="col-2 precios">
+                                    <div class="col-5 col-sm-6 col-md-4 precios">
                                         <p>Precio inicial</p>
                                     </div>
-                                    <div class="col-10 precios2">
-                                        <p>$200,000.00</p>
+                                    <div class="col-5 col-sm-6 col-md-8 precios2">
+                                        <p>$200,000</p>
                                     </div>
                                 </div>
                             </div>
@@ -133,11 +133,11 @@
                             <p class="card-text">Con 1.8 Gw de potencia nunca llegaras tarde a un evento.</p>
                             <div class="container">
                                 <div class="row ">
-                                    <div class="col-2 precios">
+                                    <div class="col-5 col-sm-6 col-md-4 precios">
                                         <p>Precio inicial</p>
                                     </div>
-                                    <div class="col-10 precios2">
-                                        <p>$200,000.00</p>
+                                    <div class="col-5 col-sm-6 col-md-8 precios2">
+                                        <p>$200,000</p>
                                     </div>
                                 </div>
                             </div>
@@ -154,11 +154,11 @@
                             <p class="card-text">Potencia, confort, espacioso y listo para viajes largos.</p>
                             <div class="container">
                                 <div class="row ">
-                                    <div class="col-2 precios">
+                                    <div class="col-5  col-sm-6 col-md-4 precios">
                                         <p>Precio inicial</p>
                                     </div>
-                                    <div class="col-10 precios2">
-                                        <p>$200,000.00</p>
+                                    <div class="col-5 col-sm-6 col-md-8 precios2">
+                                        <p>$200,000</p>
                                     </div>
                                 </div>
                             </div>
@@ -173,8 +173,28 @@
             <h3 class="display-1 history-text">
                 Historia de poder inigualable en automovilismo.
             </h3>
+            <div class="media">
+                <img class="align-self-center mr-3" src="media/dmc.png" alt="Generic placeholder image">
+                <div class="media-body">
+                    <h5 class="mt-0">Origen</h5>
+                    <p>DMC es una empresa fabricante de automóviles estadounidense fundada por el ejecutivo de la industria automotriz John DeLorean en 1975. Los modelos son de carrocería de acero inoxidable y con unas puertas de apertura vertical de ala
+                        de gaviota.</p>
+                    <p>El empresario estadounidense Stephen Wynne es el actual propietario de la DeLorean Motor Company,1​ la cual volvió a abrir en 1997</p>
+                </div>
+            </div>
+            <div class="media">
 
-
+                <div class="media-body">
+                    <h5 class="mt-0">John DeLorean</h5>
+                    <p>Fue un ingeniero y empresario estadounidense de industria automovilística, fundador de la DeLorean Motor Company.</p>
+                    <p>Lo tuvo todo para ser uno de los hombres más importantes de la General Motors en toda su historia. Desde muy joven supo escalar hasta llegar a la vicepresidencia de la compañía, uno de los coches que le llevó a subir en la empresa
+                        fue el famoso Pontiac GTO, pero el deseo de fabricar su propio automóvil le llevó a retirarse en 1974.</p>
+                    <p>
+                        Para el diseño de su vehículo, el DMC-12, John DeLorean no escatimó en absoluto, y el famoso Giorgetto Giugiaro (creador de algunas joyas automovilísticas) fue el encargado del diseño del deportivo.
+                    </p>
+                </div>
+                <img class="align-self-center mr-3" src="media/johndelorean.jpg" alt="Generic placeholder image">
+            </div>
         </article>
 
 
@@ -189,14 +209,31 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/scrollspy.js"></script>
+    <script src="js/general.js"></script>
     <script>
         $(document).ready(function() {
-                $('.carousel').carousel({
-                    interval: false
-                })
 
-                console.log($('#header'));
 
+                general();
+
+                // $('.carousel').carousel({
+                //     interval: false
+                // })
+
+                // $('#cars-sliders').on('scrollSpy:enter', function() {
+                //     $('#header').removeClass('header-bg-color');
+
+                // });
+
+                // $('#cars-sliders').on('scrollSpy:exit', function() {
+
+                //     $('#header').addClass('header-bg-color');
+
+
+                // });
+
+                // $('#cars-sliders').scrollSpy();
             }
 
         );
