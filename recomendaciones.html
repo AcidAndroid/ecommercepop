@@ -52,13 +52,15 @@
             <div>
                 <div class="row">
                     <div class="col-4">
-                        <img src="media/famous1.jpg" alt="Back to the future" srcset="">
+                        <img src="media/famous1.jpg" alt="Delorean racing circuit" srcset="">
                     </div>
                     <div class="col-4">
-                        <img src="media/famous3.jpg" alt="Back to the future" srcset="">
+                        <iframe width="350" src="https://www.youtube.com/embed/eMaGpx3KTLM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
                     </div>
                     <div class="col-4">
-                        <img src="media/famous1.jpg" alt="Back to the future" srcset="">
+
+                        <iframe width="350" src="https://www.youtube.com/embed/OYpYoNBv9Tc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="row">
@@ -68,31 +70,38 @@
                     <div class="col-6">
                         <div class="row">
                             <div class="col-4">
-                                <img src="media/famous3.jpg" alt="Back to the future" srcset="">
+                                <img src="media/famous4.jpg" alt="John Delorean itself!" srcset="">
                             </div>
                             <div class="col-4">
-                                <span>3Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente hic quis ducimus reiciendis placeat aut, illo quod eum sint animi voluptatibus, fugit quidem? Saepe, mollitia dolorum architecto modi eveniet quas.</span>
+                                <img src="media/famous5.jpg" alt="Back to the future movie" srcset="">
                             </div>
                             <div class="col-4">
-                                <span>4Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente hic quis ducimus reiciendis placeat aut, illo quod eum sint animi voluptatibus, fugit quidem? Saepe, mollitia dolorum architecto modi eveniet quas.</span>
+                                <img src="media/famous6.jpg" alt="Hot wheels delorean toy" srcset="">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-4">
-                                <span>5Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente hic quis ducimus reiciendis placeat aut, illo quod eum sint animi voluptatibus, fugit quidem? Saepe, mollitia dolorum architecto modi eveniet quas.</span>
+                                <img src="media/famous7.jpg" alt="Back to the future movie II" srcset="">
                             </div>
                             <div class="col-4">
-                                <span>6Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente hic quis ducimus reiciendis placeat aut, illo quod eum sint animi voluptatibus, fugit quidem? Saepe, mollitia dolorum architecto modi eveniet quas.</span>
+                                <img src="media/famous3.jpg" alt="Ernst cline" srcset="">
                             </div>
                             <div class="col-4">
-                                <span>7Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente hic quis ducimus reiciendis placeat aut, illo quod eum sint animi voluptatibus, fugit quidem? Saepe, mollitia dolorum architecto modi eveniet quas.</span>
+                                <img src="media/famous8.jpg" alt="Sammy Davis JR" srcset="">
                             </div>
                         </div>
 
                     </div>
                 </div>
 
-                <div class="row"></div>
+                <div class="row">
+                    <div class="col-6">
+                        <img src="media/famous9.jpg" alt="Back to the future" srcset="">
+                    </div>
+                    <div class="col-6">
+                        <img src="media/famous9.png" alt="Redy player one" srcset="">
+                    </div>
+                </div>
 
             </div>
         </article>
@@ -111,6 +120,19 @@
 
             general();
             $('#header').addClass('header-bg-color');
+            console.log($('#gallery-recomendation').find('img').each(function() {
+                $(this).attr('title', $(this).attr('alt'))
+                $(this).attr({
+
+                    'data-toggle': "tooltip",
+                    'data-placement': 'top',
+                    'title': $(this).attr('alt')
+
+                })
+
+                console.log($(this).attr('alt'));
+            }));
+            $('[data-toggle="tooltip"]').tooltip()
         });
     </script>
 </body>
